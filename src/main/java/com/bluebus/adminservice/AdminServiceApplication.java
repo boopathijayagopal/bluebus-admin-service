@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class AdminserviceApplication {
+public class AdminServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AdminserviceApplication.class, args);
+        SpringApplication.run(AdminServiceApplication.class, args);
     }
 
 }
