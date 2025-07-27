@@ -11,7 +11,7 @@ import lombok.Setter;
 @Table(name = "busroute")
 @Getter
 @Setter
-public class Busroute {
+public class BusRoute {
     @Id
     @Column(name = "busnumber", nullable = false, length = Integer.MAX_VALUE)
     private String busnumber;
