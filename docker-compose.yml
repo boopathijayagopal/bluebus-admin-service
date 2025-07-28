@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  admin-app:
+    build: .
+    container_name: admin-app
+    ports:
+      - "8086:8086"
+    restart: unless-stopped

@@ -25,4 +25,10 @@ public class BusRoute {
     @Column(name = "price", length = Integer.MAX_VALUE)
     private String price;
 
+    @Column(name = "creationdate", length = Integer.MAX_VALUE)
+    private String creationdate;
+
+    @Column(name = "lastupdateddate", length = Integer.MAX_VALUE)
+    private String lastupdateddate;
+
 }
